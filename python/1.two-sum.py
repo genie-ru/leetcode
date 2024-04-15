@@ -7,6 +7,7 @@
 # @lc code=start
 from typing import List 
 class Solution:
+    #これはtwo-sum.pyです
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         seen = {}
         for i, num in enumerate(nums):
